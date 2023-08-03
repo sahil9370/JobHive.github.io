@@ -1,0 +1,178 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Mitr:wght@300&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHive</title>
+    <script>
+        // JavaScript function to toggle visibility of more options
+        function toggleMoreOptions() {
+            var moreOptionsDropdown = document.getElementById("more-options-dropdown");
+            moreOptionsDropdown.style.display = moreOptionsDropdown.style.display === "none" ? "block" : "none";
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="joblogo1.png" alt="Logo">
+                <h1>JobHive</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <!-- <li><a href="index.html">Home</a></li> -->
+                    <li><a href="index.html">CANDIDATE</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign-Up</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </nav>
+
+            <div class="more-options" onclick="toggleMoreOptions()">
+                <img src="more.png" alt="More Options" width="28" height="28">
+            </div>
+
+            <div id="more-options-dropdown" class="more-options-dropdown">
+                <!-- More options content... -->
+                <p><a href="about.html">About us</a></p>
+                <p><a href="index.html">logout</a></p>
+            </div>
+    </header>
+
+    <body>
+        <div class="main">
+            <h1>Hire the best tech talent in India.</h1>
+            <p class="para">We curate the top 2% of developers, product managers & data scientists.
+                No subscription costs - Pay only if you hire.</p>
+            <button class="btn"><a href="signup.html">START HIRING</a></button>
+            <p class="para2">100%  free  until  you  make  a  hire</p>
+        </div>
+
+        <div class="services">
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step11.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>ACCESS CURATED CANDIDATES</h1>
+                    <p>A high quality, ready-to-interview candidate pool, handpicked by us.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step22.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>HIRE WITHIN 2 WEEKS</h1>
+                    <p>Candidates respond in under 72 hours. Set up interviews in days, hire within 2 weeks.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step3.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>PAY ONLY IF YOU HIRE</h1>
+                    <p>We charge a fair placement fee, with a 2 month candidate-replacement guarantee!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="client-section">
+            <h1 class="hiring-componies">LEADING COMPANIES BUILD TEAMS ON JobHive
+            </h1>
+            <div class="logo-list">
+                <img src="logo-list.png" alt="logo-list">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text">
+                <h class="how-work">THE EASIEST WAY TO BUILD YOUR TECH TEAM</h>
+            </div>
+            <div class="flex-split">
+                <div class="f-left">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Only pre-screened, high quality candidates</span>
+                    </h2>
+                    <p class="key-differ">We handpick candidates to ensure you’re only choosing from the top 2% of tech
+                        talent. You’re never overwhelmed by thousands of candidates.</p>
+                </div>
+                <div class="f-right">
+                    <img class="img-key" src="way1.png" alt="key-differ">
+                </div>
+            </div>
+
+            <div class="flex-split-static">
+                <div class="f-left-static">
+                    <img class="img-key" src="way2.png" alt="key-differ">
+                </div>
+                <div class="f-right-static">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Only candidates who are ready-to-interview</span>
+                    </h2>
+                    <p class="key-differ">We verify candidates are ready to interview before accepting them onto
+                        JobHive. No more reaching out to candidates who are no longer open to a move.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-split-salary">
+                <div class="f-left">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">2-week batches</span>
+                    </h2>
+                    <p class="key-differ">Every two weeks we remove all existing candidates and replace them with a
+                        brand new batch - to ensure that you always see fresh candidates.</p>
+                </div>
+                <div class="f-right-salary">
+                    <img class="img-key" src="way3.png" alt="key-differ">
+                </div>
+            </div>
+        </div>
+        <div class="owner">
+            <h1>Signing up takes less than a minute ⏳</h1>
+            <p>Focus your efforts on a pool of high-quality and actively looking out candidates.</p>
+           <button class="owner"><a href="signup.html">start hiring</a></button>
+        </div>
+    </body>
+
+
+    <footer class="footer">
+        <img src="joblogo1.png" alt="Logo">
+        <h1>JobHive</h1><br>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+            </a>
+        </div>
+
+        <p>&copy; 2023 JobHive. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

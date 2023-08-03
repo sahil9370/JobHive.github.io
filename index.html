@@ -1,0 +1,280 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Mitr:wght@300&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHive</title>
+    <script>
+        // JavaScript function to toggle visibility of more options
+        function toggleMoreOptions() {
+            var moreOptionsDropdown = document.getElementById("more-options-dropdown");
+            moreOptionsDropdown.style.display = moreOptionsDropdown.style.display === "none" ? "block" : "none";
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="joblogo1.png" alt="Logo">
+                <h1>JobHive</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="employer.html">EMPLOYER</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign-Up</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </nav>
+
+            <div class="more-options" onclick="toggleMoreOptions()">
+                <img src="more.png" alt="More Options" width="28" height="28">
+            </div>
+
+            <div id="more-options-dropdown" class="more-options-dropdown">
+                <!-- More options content... -->
+                <p><a href="about.html">About us</a></p>
+                <p><a href="index.html">logout</a></p>
+            </div>
+    </header>
+
+    <body>
+        <div class="main">
+            <h1>Find your next top tech job in 1 week.</h1>
+            <p class="para">Are you a top 2% Software Engineer, Product Manager or Data Scientist?
+                Let leading Indian technology companies compete to hire you.</p>
+            <button class="btn"><a href="login.html">APPLY TO JOIN</a></button>
+            <p class="para2">100% free. It takes only 5 minutes</p>
+        </div>
+
+        <div class="services">
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step1.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>STEP 1: COMPLETE PROFILE</h1>
+                    <p>Once you are approved, we showcase you to leading Indian technology startups</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step2.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>STEP 2: RECEIVE JOB OFFERS</h1>
+                    <p>Companies start sending interview requests. Talk to only the ones you like.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="services-icon">
+                    <img src="step3.png" alt="services">
+                </div>
+                <div class="services-description">
+                    <h1>STEP 3: ACCEPT DREAM JOB</h1>
+                    <p>Compare your offers and accept the best one. Hired!</p>
+                </div>
+            </div>
+        </div>
+        <div class="client-section">
+            <h1 class="hiring-componies">LEADING COMPANIES BUILD TEAMS ON JobHive
+            </h1>
+            <div class="logo-list">
+                <img src="logo-list.png" alt="logo-list">
+            </div>
+        </div>
+        <div class="container">
+            <div class="text">
+                <h class="how-work">HOW IT WORKS</h>
+            </div>
+            <div class="flex-split">
+                <div class="f-left">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Create your free candidate profile</span>
+                    </h2>
+                    <p class="key-differ">Answer a few questions about yourself - it takes less than 5 minutes.</p>
+                    <ul>
+                        <li class="key-differ-list">
+                            <span>‍🏅 What is your biggest achievement?</span>
+                        </li>
+                        <li class="key-differ-list">
+                            <span>‍👑️ What does your ideal opportunity look like?</span>
+                        </li>
+                        <li class="key-differ-list">
+                            <span>=> And like this some more.....</span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="f-right">
+                    <img class="img-key" src="keydiffer.png" alt="key-differ">
+                </div>
+            </div>
+
+            <div class="flex-split-static">
+                <div class="f-left-static">
+                    <img class="img-key" src="static.png" alt="key-differ">
+                </div>
+                <div class="f-right-static">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Sit back while companies compete to hire you</span>
+                    </h2>
+                    <p class="key-differ">Don’t waste your time reaching out to companies or dealing with recruiters.
+                    </p>
+                    <ul>
+                        <li class="key-differ-list">
+                            <span>‍💨 We fast-track your profile to hiring managers.</span>
+                        </li>
+                        <li class="key-differ-list">
+                            <span>‍🙆‍♂️ Get multiple interview requests with upfront salary offers within days.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex-split-salary">
+                <div class="f-left">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Salary & Role transparency</span>
+                    </h2>
+                    <p class="key-differ">Interview requests from companies mention salary and role details upfront -
+                        before you decide to accept or decline them.</p>
+                </div>
+                <div class="f-right-salary">
+                    <img class="img-key" src="salary.png" alt="key-differ">
+                </div>
+            </div>
+
+            <div class="flex-split-static">
+                <div class="f-left-static">
+                    <img class="img-key" src="chat1.png" alt="key-differ">
+                </div>
+                <div class="f-right-static">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">A dedicated talent advocate</span>
+                    </h2>
+                    <p class="key-differ">Your Talent Advocate will guide you through the entire process. From polishing
+                        your profile, providing interview tips to helping negotiate offers!</p>
+
+                </div>
+            </div>
+
+            <div class="flex-split-salary">
+                <div class="f-left">
+                    <div class="stylishline"></div>
+                    <h2>
+                        <span class="benefit-heading">Current and past employers can’t see your profile</span>
+                    </h2>
+                    <p class="key-differ">By default, we hide your profile from any employers that you list as your
+                        current and past employer.</p>
+                    <ul>
+                        <li class="key-differ-list">
+                            <span>‍🕵 Privacy Assured</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-right">
+                    <img class="img-key" src="privacy.png" alt="key-differ">
+                </div>
+            </div>
+        </div>
+        <div class="componies">
+            <div class="card-borderless">
+                <div class="compony">
+                    <img src="compony1.png" alt="cred">
+                </div>
+                <div class="candidate">
+                    <div class="image">
+                        <img src="candidate1.jpg" alt="image">
+                    </div>
+                    <div>
+                        <h4 class="candidate-name">Yadhu Manoharan </h4>
+                        <span>Sr. iOS Engineer</span>
+                    </div>
+                </div>
+                <div class="content">JobHive was able to make the process really easy. They were able to schedule
+                    interviews with the best companies in the industry and drove the entire process smoothly.</div>
+            </div>
+
+            <div class="card-borderless">
+                <div class="compony">
+                    <img src="compony2.png" alt="dream11">
+                </div>
+                <div class="candidate">
+                    <div class="image">
+                        <img src="candidate2.jpeg" alt="image">
+                    </div>
+                    <div>
+                        <h4 class="candidate-name">Santosh Nain </h4>
+                        <span>SDE-2</span>
+                    </div>
+                </div>
+                <div class="content">A friend of mine told me about JobHive when I started looking for new
+                    opportunities. The JobHive team was extremely helpful, professional and quick with everything.
+                </div>
+            </div>
+
+            <div class="card-borderless">
+                <div class="compony">
+                    <img src="compony3.png" alt="cure.fit">
+                </div>
+                <div class="candidate">
+                    <div class="image">
+                        <img src="candidate3.jpeg" alt="image">
+                    </div>
+                    <div>
+                        <h4 class="candidate-name">Tarun Dugar </h4>
+                        <span>Sr. Software Engineer</span>
+                    </div>
+                </div>
+                <div class="content">Compared to other job portals, what stood out for me was that JobHive, on top of
+                    providing really good opportunities, helped me in negotiations with the companies too.</div>
+            </div>
+        </div>
+
+        <div class="owner">
+            <h1>Built by SAYYAD SAHIL, for techies 👩‍💻👨‍💻</h1>
+            <p>It takes less than 5 minutes to sign up.</p>
+           <button class="owner"><a href="login.html">APPLY TO JOIN</a></button>
+        </div>
+
+    </body>
+    <footer class="footer">
+        <img src="joblogo1.png" alt="Logo">
+        <h1>JobHive</h1><br>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+            </a>
+        </div>
+
+        <p>&copy; 2023 JobHive. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
